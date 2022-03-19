@@ -22,9 +22,7 @@ So I started googling and I didn't find an answer, at first I thought it had som
 ## Prerequisites
 WSL - You can install it on windows without it, but we are going to use nginx and it's easier to setup in linux. You can also follow this tutorial on a Linux machine.
 
-Ruby => 2.7.3 - DevDocs is built on top of Ruby. (You can install this version using rbenv)
-
-Docker - DevDocs comes with a docker file which is easy to use, you can set it up without it, and it's documented in their [github](https://github.com/freeCodeCamp/devdocs) But it's easier with docker.
+Docker - DevDocs comes with a docker file which is easy to use, you can set it up without it, and it's documented in their [github](https://github.com/freeCodeCamp/devdocs), but it's easier with docker.
 
 
 ### Setting up docker
