@@ -1,6 +1,6 @@
 # Setting Up DevDocs On Windows With WSL
 
-So I wanted to setup devdocs on my local machine for offline documentation so I followed the Quick Start Documentation documented on their [github](https://github.com/freeCodeCamp/devdocs) and it all worked fine. The devdocs server is listening on port 9292 and you have to access it with through localhost, which is kinda ugly, I wanted to browse to [devdocs.my].
+So I wanted to setup devdocs on my local machine for offline documentation so I followed the Quick Start Documentation documented on their [github](https://github.com/freeCodeCamp/devdocs) and it all worked fine. The devdocs server is listening on port 9292 and you have to access it with through localhost, which is kinda ugly, I wanted to browse to `devdocs.my`.
 
 So I found a way using `netsh` to port forward connections locally which looks something like this:
 
@@ -12,7 +12,7 @@ Combining that with adding a host in the hosts file that looks like this:
 
 `127.0.92.92    devdocs.my`
 
-Theoretically (and practically) I should be able to browse to [devdocs.my], and it worked, except I got a weird error message.
+Theoretically (and practically) I should be able to browse to `devdocs.my`, and it worked, except I got a weird error message.
 
 [Here is the full StackOverflow thread that talks about that](https://stackoverflow.com/questions/8652948/using-port-number-in-windows-host-file)
 
