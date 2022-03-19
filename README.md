@@ -106,4 +106,9 @@ This configuration sets up two server listeners, one listening on port `443`, th
 
 The only things you need to change in this configuration are in these <> brackets.
 
+Finally run:
+```sh
+sudo service nginx restart
+```
+
 Now you should be able to browse to your host. (Chrome and other browsers might warn you that it's not a safe connection but you can just ignore it).
